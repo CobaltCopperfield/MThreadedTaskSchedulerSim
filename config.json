@@ -1,0 +1,30 @@
+{
+  "simulation_parameters": {
+    "simulation_time": 2000,
+    "random_seed": 6
+  },
+  "output_files": {
+    "output_directory": "results",
+    "csv_summary": "simulation_results_summary.csv",
+    "plot_task_times": "task_times_summary.png",
+    "plot_system_state": "system_state_summary.png",
+    "plot_queue_timeseries": "queue_length_over_time.png"
+  },
+  "scenarios": {
+    "1. Baseline (4T, 0.7 Load)": {
+      "num_threads": 4,
+      "arrival_rate": 0.7,
+      "avg_service_time": 5.0
+    },
+    "2. Overload (4T, 1.0 Load)": {
+      "num_threads": 4,
+      "arrival_rate": 1.0,
+      "avg_service_time": 5.0
+    },
+    "3. Scaling Up (6T, 1.0 Load)": {
+      "num_threads": 6,
+      "arrival_rate": 1.0,
+      "avg_service_time": 5.0
+    }
+  }
+}
