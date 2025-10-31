@@ -1,0 +1,4 @@
+,Average Wait Time,Average Turnaround Time,Average Queue Length,Thread Pool Utilization (%),Total Tasks Completed
+"1. Baseline (4T, 0.7 Load)",3.65,8.66,2.62,89.4,1428
+"2. Overload (4T, 1.0 Load)",177.3,181.8,182.66,99.8,1597
+"3. Scaling Up (6T, 1.0 Load)",1.08,6.08,1.08,82.7,1979
