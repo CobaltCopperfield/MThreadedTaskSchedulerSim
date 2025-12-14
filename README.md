@@ -1,5 +1,5 @@
-# Multi-Threaded Task Scheduler Simulation
-This project uses SimPy (a Python library) to simulate and test a multi-threaded task scheduler.
+# Multi-Core Batch Process Scheduler (Formerly Multi-Threaded Task Scheduler) Simulation
+This project uses SimPy (a Python library) to simulate and test a Multi-Core Batch Process Scheduler/Multi-Threaded Task Scheduler.
 
 You can run different tests to see how things like wait times or queue lengths change when you adjust the number of threads or how many tasks arrive.
 
